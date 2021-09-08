@@ -21,7 +21,6 @@
 
 .ex-2-square:active{
     width: 2100px;
-    height: 1100px;
     transition: ease 3s;
 }
 
@@ -31,12 +30,8 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: ease 2s;
 }
 
-.ex-3-square:hover{
-    border-radius: 50%;
-}
 
 /* ESERCIZIO 4 */
 .ex-4-square {
@@ -65,6 +60,7 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: 1s;
 }
 
 .ex-5-square:hover{
@@ -182,7 +178,7 @@
 }
 
 /* ESERCIZIO 12 */
-.ex-12-button:focus .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     position: absolute;
     top: -10px;
     left: 60%;
@@ -192,7 +188,7 @@
     transition: ease 3s;
 }
 
-.ex-12-button:focus .ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     position: absolute;
     bottom: -10px;
     right: 60%;
@@ -203,7 +199,7 @@
 }
 
 /* ESERCIZIO 13 */
-.ex-13-button:focus .ex-13-top-white {
+.ex-13-button:hover .ex-13-top-white {
     position: absolute;
     top: -10px;
     left: 10%;
@@ -248,7 +244,7 @@
     }
 
 }
-.ex-13-button:focus .ex-13-bottom-white{
+.ex-13-button:hover .ex-13-bottom-white{
     position: absolute;
     bottom: -10px;
     right: 20%;
